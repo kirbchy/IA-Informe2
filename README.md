@@ -1,4 +1,4 @@
-# Proyecto de Machine Learning Supervisado - Predicción de Stroke
+# Informe 2 - Predicción de Stroke
 
 ## Descripción del Proyecto
 
