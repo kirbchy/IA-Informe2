@@ -1,0 +1,307 @@
+# ===========================================
+# PYTHON - Archivos de Python
+# ===========================================
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+ENV/
+.env
+.venv
+env.bak/
+venv.bak/
+
+# Archivos de Python compilados
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Archivos de distribución / empaquetado
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# PEP 582
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# ===========================================
+# MACHINE LEARNING - Archivos específicos de ML
+# ===========================================
+
+# Modelos entrenados (archivos grandes) - EXCLUIR
+*.pkl
+*.joblib
+*.h5
+*.hdf5
+*.pb
+*.pth
+*.pt
+*.ckpt
+*.model
+
+# Datos procesados grandes - EXCLUIR
+data/X_train_balanced.npy
+data/X_test_scaled.npy
+data/X_train_scaled.npy
+data/y_train_balanced.npy
+data/y_test.npy
+data/y_train.npy
+data/scaler.pkl
+
+# Resultados de modelos - EXCLUIR
+data/svm_model_optimized.pkl
+data/svm_results.json
+data/neural_network_best.h5
+data/neural_network_results.json
+data/xgboost_model_optimized.pkl
+data/xgboost_results.json
+
+# Archivos de resumen - EXCLUIR
+data/executive_summary.json
+data/model_comparison.csv
+data/model_recommendations.csv
+
+# Mantener en el repositorio:
+# - healthcare-dataset-stroke-data.csv (dataset original)
+# - requirements.txt
+# - README.md
+# - notebooks/
+
+# Resultados de experimentos
+experiments/
+runs/
+logs/
+tensorboard_logs/
+mlruns/
+
+# Cache de datos
+.cache/
+cache/
+
+# ===========================================
+# JUPYTER NOTEBOOKS
+# ===========================================
+
+# Checkpoints de Jupyter
+.ipynb_checkpoints/
+
+# ===========================================
+# SISTEMA OPERATIVO
+# ===========================================
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ===========================================
+# IDEs y EDITORES
+# ===========================================
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# ===========================================
+# ARCHIVOS TEMPORALES Y LOGS
+# ===========================================
+
+# Logs
+*.log
+logs/
+
+# Archivos temporales
+*.tmp
+*.temp
+.temp/
+tmp/
+
+# ===========================================
+# ARCHIVOS ESPECÍFICOS DEL PROYECTO
+# ===========================================
+
+# Mantener solo los archivos esenciales, excluir:
+# - Modelos entrenados grandes
+# - Datos procesados grandes
+# - Archivos de resultados temporales
+
+# Mantener en el repositorio:
+# - requirements.txt
+# - README.md
+# - notebooks/ (sin checkpoints)
+# - data/ (solo datasets originales pequeños)
+# - .gitignore
+
+# Excluir del repositorio:
+# - .venv/ (entorno virtual)
+# - __pycache__/ (archivos Python compilados)
+# - *.pkl (modelos entrenados)
+# - *.h5 (modelos de TensorFlow)
+# - Archivos de checkpoints de Jupyter
